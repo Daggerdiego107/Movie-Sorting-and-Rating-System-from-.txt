@@ -7,7 +7,14 @@ It also divides in 3 parts:
 - A main.cpp file
 - The text file that cointains the movies and episodes in a special format
 
-  # Text File Format:
+# Text File Format:
 
   Movies:
-  
+  p,20191245,The Lion King,118,drama
+  (Type),(ID),(Name),(Duration),(Genre)
+
+  Episodes:
+  c,20160150-S02E09,Chapter Nine: The Gate,62,accion,Stranger Things T2,9
+  (Type),(ID),(Episode Name),(Duration),(Genre),(Series Title and Season),(Episode Number)
+
+In the .txt file format it uses a type "c" for episodes of a specific series and type "p" for movies. You can add your own text following the formats provided above to test it out with further cases
